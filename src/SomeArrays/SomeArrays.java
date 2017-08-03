@@ -22,7 +22,6 @@ public class SomeArrays {
 		printArray(thirdArr);
 		System.out.println("minimum value: " + findMin(thirdArr));
 		bubbleSort(thirdArr);
-		findTuple(thirdArr,5);
 		printArray(thirdArr);
 	}
 	
