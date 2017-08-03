@@ -20,7 +20,9 @@ public class SomeArrays {
 		//step8
 		int[] thirdArr = {11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, -1, -2};
 		printArray(thirdArr);
+		System.out.println("minimum value: " + findMin(thirdArr));
 		bubbleSort(thirdArr);
+		findTuple(thirdArr,5);
 		printArray(thirdArr);
 	}
 	
